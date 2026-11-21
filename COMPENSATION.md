@@ -80,3 +80,31 @@ Totals: 1,238 addresses, 804 eligible, 434 not eligible; compensation 13,853,398
 - Addresses not eligible in Option 1 stay not eligible; refunds under 1 USD are not paid.
 
 Totals: 1,017 addresses, 727 eligible, 290 not eligible; compensation 13,010,474.295914759 WGNK, 1,856,854.891513 USDT (sums of `compensation_wgnk` and `compensation_usdt` over all rows).
+
+## Option 3: only WGNK held before the hack
+
+`option-3.csv` has one row per address that held WGNK before the hack, snapshot block 26443612, with its compensation in USDT and in WGNK.
+
+### CSV columns
+
+| column | meaning |
+|---|---|
+| `address` | the address (EIP-55 checksum form) |
+| `wgnk_before_hack` | WGNK held at the end of block 26443612, plus the WGNK of its liquidity positions |
+| `prehack_rate_usd` | 0.14272 |
+| `prehack_value_usd` | `wgnk_before_hack` x 0.14272, rounded to 6 decimals |
+| `gnk_burn_deduction_usd` | USD value of the GNK already paid out for a burn of this address, 0 if none |
+| `compensation_usdt` | the compensation in USDT: `prehack_value_usd` minus `gnk_burn_deduction_usd`, not below 0; 0 when the result is under 1 USD |
+| `compensation_wgnk` | the compensation in WGNK: `compensation_usdt` / 0.14272, rounded down to 9 decimals |
+| `decision` | `refund_wgnk` (eligible) or `not_eligible` |
+
+### Rules
+
+- Addresses that held 0 WGNK before the hack are removed.
+- Only WGNK held before the hack is compensated, at 0.14272 USDT per WGNK.
+- Buys, sales and round trips after the hack are not counted.
+- GNK already paid out for a burn is subtracted.
+- WGNK on the WGNK token contract and pool liquidity with no known owner get nothing.
+- Refunds under 1 USD are not paid.
+
+Totals: 1,017 addresses, 732 eligible, 285 not eligible; compensation 13,076,376.110334599 WGNK, 1,866,260.398467 USDT (sums of `compensation_wgnk` and `compensation_usdt` over all rows).
