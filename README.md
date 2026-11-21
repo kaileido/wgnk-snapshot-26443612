@@ -62,8 +62,10 @@ The check also guards against an incomplete event list: a missed holder would ma
 | Option | CSV | Command |
 |---|---|---|
 | Option 1 | [`option-1.csv`](option-1.csv) | `python3 scripts/option_1.py` |
+| Option 2 | [`option-2.csv`](option-2.csv) | `python3 scripts/option_2.py` |
 
 - `scripts/option_1.py` writes `option-1.csv` from `data/` and `inputs/` without network access.
+- `scripts/option_2.py` reads `option-1.csv` and writes `option-2.csv`.
 
 The pipeline behind `data/` and `inputs/`, run from the repository root (they read `snapshot.csv`, call an Ethereum JSON-RPC endpoint set in `RPC`, comma-separated, public endpoints by default, and keep intermediate JSON in `data/`):
 
