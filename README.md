@@ -2,6 +2,8 @@
 
 A reproducible list of every holder balance of the WGNK ERC-20 token at one fixed Ethereum block.
 
+The repository also holds the compensation options built on this snapshot: [`COMPENSATION.md`](COMPENSATION.md) has their rules and CSV columns.
+
 | | |
 |---|---|
 | Token | WGNK, `0x972a7a92d92796a98801a8818bcf91f1648f2f68` |
@@ -54,3 +56,23 @@ The check also guards against an incomplete event list: a missed holder would ma
 ## Checksum addresses
 
 `hashlib` does not provide Keccak-256 (`sha3_256` is NIST SHA-3, which pads differently), so `snapshot.py` contains a small pure-Python Keccak-256 used only to compute the EIP-55 checksum casing. It was verified against the empty-input Keccak-256 vector and the EIP-55 reference addresses.
+
+## Compensation
+
+| Option | CSV | Command |
+|---|---|---|
+| Option 1 | [`option-1.csv`](option-1.csv) | `python3 scripts/option_1.py` |
+
+- `scripts/option_1.py` writes `option-1.csv` from `data/` and `inputs/` without network access.
+
+The pipeline behind `data/` and `inputs/`, run from the repository root (they read `snapshot.csv`, call an Ethereum JSON-RPC endpoint set in `RPC`, comma-separated, public endpoints by default, and keep intermediate JSON in `data/`):
+
+1. `scripts/hack_window.py`: the blocks of the announcement and of the end of the window.
+2. `scripts/fetch_transactions.py`: every WGNK transfer in the window with its transaction and receipt.
+3. `scripts/liquidity_positions.py`: the WGNK in liquidity pools attributed to the owners of the positions.
+4. `scripts/contract_codes.py`: which addresses are EOAs, EIP-7702 EOAs or contracts.
+5. `scripts/prices.py`: the pre-hack rate and the ETH and WBTC prices.
+6. `scripts/post_hack_buys.py`: the buys after the hack, with what was paid; writes `data/post-hack-buys.json`.
+7. `scripts/trades_per_address.py`: buys and sales per address; writes `data/trades-per-address.csv`.
+
+`data/post-hack-buys.json` and `data/trades-per-address.csv` are committed, so `scripts/option_1.py` runs without network. `inputs/` holds the per-transaction corrections and the bridge-burn verdicts that `scripts/option_1.py` reads; `limit-orders/` holds tables about the limit-order buys after the hack, and no script reads them.

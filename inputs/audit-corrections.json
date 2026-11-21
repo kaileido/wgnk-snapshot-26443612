@@ -1,0 +1,279 @@
+{
+ "about": "Per-transaction corrections to the buys and sales of post_hack_buys.py and trades_per_address.py, each re-derived from the transaction receipts in the window and archive reads at block 26445549; read by scripts/option_1.py.",
+ "unpriced_buys": [
+  {
+   "address": "0x42247621e93a3f07e8080cc515503168386cb6d3",
+   "tx": "0x171a078742c05ec1aa1df4f0f90986e7305f79daeabe0e8e373e4337d009178c",
+   "usd": "1.353857",
+   "derivation": "paid with unpriced token 0x28a062b8cd62a219210211f2085281c0aca2b2b9; the WGNK pools sent 165.017159879 WGNK out and received 1.353857 USD (USDT 1.353857); the buyer got 165.017159879 WGNK, share 1.000000000, value 1.353857 USD"
+  },
+  {
+   "address": "0x71196be3dc0804fb3d91c3c81775f58ea948f1bd",
+   "tx": "0xece55bb28afaef768b07b46fdb92b0811681ea16da05fc20000f82d075d14f92",
+   "usd": "75.441330",
+   "derivation": "paid with unpriced token 0xca14007eff0db1f8135f4c25b34de49ab0d42766; the WGNK pools sent 9298.96470536 WGNK out and received 76.577742 USD (USDT 76.577742); the buyer got 9160.968312499 WGNK, share 0.985160026, value 75.441330 USD"
+  },
+  {
+   "address": "0x16c8f260050f1bdede48f0455ea586b0078f7d85",
+   "tx": "0x236090fcd07177b0008a4eb9a43477b98399e8756a5e3800bad016f6ea81aef4",
+   "usd": "46.226426",
+   "derivation": "paid with unpriced token 0x4f921eb324af0cc45f71ab702fc4a5051d40176e; the WGNK pools sent 5696.282600916 WGNK out and received 46.226426 USD (USDT 46.226426); the buyer got 5696.282600916 WGNK, share 1.000000000, value 46.226426 USD"
+  },
+  {
+   "address": "0x2f380c64fb20d23c007f0782b864c77e52021f9c",
+   "tx": "0x3eadae41901e4ee2945bdb07ba7278d88a0d6b9fa2aa6788440f6fc2df2b151f",
+   "usd": "21.299907",
+   "derivation": "paid with unpriced token 0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94; the WGNK pools sent 741.431459448 WGNK out and received 21.785949 USD (USDT 21.785949); the buyer got 724.8901952 WGNK, share 0.977690097, value 21.299907 USD"
+  },
+  {
+   "address": "0x2f380c64fb20d23c007f0782b864c77e52021f9c",
+   "tx": "0x33b0df7414d28ddbb16ebfa21e8e3c7c461ac127e00e3462e2e140483720422f",
+   "usd": "14.206618",
+   "derivation": "paid with unpriced token 0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94; the WGNK pools sent 469.336439841 WGNK out and received 14.532303 USD (USDT 14.532303); the buyer got 458.818096866 WGNK, share 0.977588906, value 14.206618 USD"
+  },
+  {
+   "address": "0x2f380c64fb20d23c007f0782b864c77e52021f9c",
+   "tx": "0xaf8806492a35d9bd201b7a6be57c3d9ae4abb64342512c138f8f023d7f60d5d2",
+   "usd": "35.517119",
+   "derivation": "paid with unpriced token 0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94; the WGNK pools sent 1052.697776218 WGNK out and received 36.322201 USD (USDT 36.322201); the buyer got 1029.364704449 WGNK, share 0.977834976, value 35.517119 USD"
+  },
+  {
+   "address": "0xfe087b5faeac2f4ba5f65650feb8c2bffe5988ca",
+   "tx": "0x3ff1fa1b6d5f72ba9e86d9060d05163635b7ce9eed8722c0ec7a6aa9a7e96e34",
+   "usd": "306.553102",
+   "derivation": "paid with unpriced token 0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91; the WGNK pools sent 5703.775919624 WGNK out and received 308.655542 USD (USDT 308.655542); the buyer got 5664.924051346 WGNK, share 0.993188395, value 306.553102 USD"
+  },
+  {
+   "address": "0x2f380c64fb20d23c007f0782b864c77e52021f9c",
+   "tx": "0x3123a6ef130b495c56a5aa08d0706b4f23cfe29a7c902977e8cd25d14ab9077e",
+   "usd": "21.341315",
+   "derivation": "paid with unpriced token 0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94; the WGNK pools sent 816.00342654 WGNK out and received 21.381615 USD (USDT 21.381615); the buyer got 814.465435504 WGNK, share 0.998115215, value 21.341315 USD"
+  },
+  {
+   "address": "0xef34782298287a143d36b04530240d935ed3f59d",
+   "tx": "0xcc6d60297921b9ea601f39605828b92c737e593e696047395c61a94ba45b575c",
+   "usd": "293.494460",
+   "derivation": "paid with unpriced token 0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c; the WGNK pools sent 6794.601372479 WGNK out and received 293.494460 USD (USDT 293.494460); the buyer got 6794.601372479 WGNK, share 1.000000000, value 293.494460 USD"
+  },
+  {
+   "address": "0xef34782298287a143d36b04530240d935ed3f59d",
+   "tx": "0x9e31e5f82e9bfa12d6925f1768ecf5117e136d65d39bec935129ab916c1d67cf",
+   "usd": "54.054514",
+   "derivation": "paid with unpriced token 0x4d1c297d39c5c1277964d0e3f8aa901493664530; the WGNK pools sent 1263.368826116 WGNK out and received 54.531666 USD (USDT 54.531666); the buyer got 1252.314354365 WGNK, share 0.991250004, value 54.054514 USD"
+  },
+  {
+   "address": "0xef34782298287a143d36b04530240d935ed3f59d",
+   "tx": "0xb7388d4a722220aecd3fd5acbdbd888094711866dfabeba47e582159a2dd7bb8",
+   "usd": "47.542184",
+   "derivation": "paid with unpriced token 0x5283d291dbcf85356a21ba090e6db59121208b44; the WGNK pools sent 1106.427151852 WGNK out and received 47.961850 USD (USDT 47.961850); the buyer got 1096.745914274 WGNK, share 0.991250000, value 47.542184 USD"
+  },
+  {
+   "address": "0xef34782298287a143d36b04530240d935ed3f59d",
+   "tx": "0xbe415923528dd5938abc06f4c0d937bd825644927b7237b9b1a0ba663f8b6dca",
+   "usd": "150.221982",
+   "derivation": "paid with unpriced token 0x4d7078ddd6ccfed2f85db5b7d3ff16828d378d48; the WGNK pools sent 3079.699575951 WGNK out and received 150.221982 USD (USDT 150.221982); the buyer got 3079.699575951 WGNK, share 1.000000000, value 150.221982 USD"
+  }
+ ],
+ "transfers_not_sales": [
+  {
+   "address": "0x0041949f5ada99c8e91b5080080e1ff72ff3a5c9",
+   "tx": "0x2aed760a4387010de0c7b1ce2b42492acb5ae56f34936380da5e197441008d4c",
+   "to": "0xbc134b3096d32a2e9617640579dff7fb5299948a",
+   "wgnk": "132758.598779365",
+   "receiver": "holds",
+   "derivation": "0xbc134b3096d32a2e9617640579dff7fb5299948a (Safe proxy) has no WGNK outflow in the window; balance at block 26445549: 132758.598779365 WGNK, all it received."
+  },
+  {
+   "address": "0xa8c2679f1f824949ad3e2e06e68a0f2aacf84a56",
+   "tx": "0x719113bd65de8c1609ad0b079266c9fe57edbfbe2c5f94707b50bcfb5663c64f",
+   "to": "0xd46223b86687774ce138d964702852cea8612e33",
+   "wgnk": "199725.890388957",
+   "receiver": "burned_rejected",
+   "derivation": "0xd46223b86687774ce138d964702852cea8612e33 (EOA) sent no WGNK in the window except burns: 5,000 + 5,800 + 99,935 + 99,800 + 5,420 = 215,955 WGNK, all five rejected in inputs/bridge-burn-verdicts.csv (n = 40, 41, 43, 44, 45); balance at block 26445549: 556.304007692 WGNK; no sale or swap."
+  },
+  {
+   "address": "0x9a0bfac3c94a5f14de3cbf5df4b3f213559afd62",
+   "tx": "0x9e7d5bdf0cba52905910f2352abd114060f0279d886d023a3d8872108ae52136",
+   "to": "0xd46223b86687774ce138d964702852cea8612e33",
+   "wgnk": "4717.927722250",
+   "receiver": "burned_rejected",
+   "derivation": "0xd46223b86687774ce138d964702852cea8612e33 (EOA) sent no WGNK in the window except burns: 5,000 + 5,800 + 99,935 + 99,800 + 5,420 = 215,955 WGNK, all five rejected in inputs/bridge-burn-verdicts.csv (n = 40, 41, 43, 44, 45); balance at block 26445549: 556.304007692 WGNK; no sale or swap."
+  },
+  {
+   "address": "0x0dceb9da36c0aaf69e24febecf5a841fe5d63aa0",
+   "tx": "0x5cbb60822f4242177e3b141c80fe3d9c55af36b6a8b88db0998012bd3815bd94",
+   "to": "0xd46223b86687774ce138d964702852cea8612e33",
+   "wgnk": "697.882735886",
+   "receiver": "burned_rejected",
+   "derivation": "0xd46223b86687774ce138d964702852cea8612e33 (EOA) sent no WGNK in the window except burns: 5,000 + 5,800 + 99,935 + 99,800 + 5,420 = 215,955 WGNK, all five rejected in inputs/bridge-burn-verdicts.csv (n = 40, 41, 43, 44, 45); balance at block 26445549: 556.304007692 WGNK; no sale or swap."
+  },
+  {
+   "address": "0x7516b081815e564fa03fc30631f68360d1e7774a",
+   "tx": "0x1da5a1bb5b5dc0bae2d44ad6539901544856f5645c0b28a7bb1a955527d0f137",
+   "to": "0xd46223b86687774ce138d964702852cea8612e33",
+   "wgnk": "555.531514126",
+   "receiver": "burned_rejected",
+   "derivation": "0xd46223b86687774ce138d964702852cea8612e33 (EOA) sent no WGNK in the window except burns: 5,000 + 5,800 + 99,935 + 99,800 + 5,420 = 215,955 WGNK, all five rejected in inputs/bridge-burn-verdicts.csv (n = 40, 41, 43, 44, 45); balance at block 26445549: 556.304007692 WGNK; no sale or swap."
+  },
+  {
+   "address": "0x8851a6924db7ed6c60ef86377c4ecfe8db4dc89b",
+   "tx": "0x4d4d2d5e689a8863ac954090a52c553aad5ab0acde61fcb6c0eb66fe2ddb6a30",
+   "to": "0xbb8b862c243f36442fd3151deee0f605eaa1e304",
+   "wgnk": "14236.137069384",
+   "receiver": "burned_rejected",
+   "derivation": "0xbb8b862c243f36442fd3151deee0f605eaa1e304 (EOA, nonce 2) passed all 14,236.137069384 WGNK to 0x55bbc99e922f48f25b12ca60e30e62cbda7d113a in tx 0xe6b974248b4ce50b3e7934fc6f58ff24bfbb1b8659cd5e52b540526dbdf6ace5 (block 26443694) and had no other WGNK flow; 0x55bbc99e922f48f25b12ca60e30e62cbda7d113a (EOA) burned 14,236 (tx 0xb21051fd957cafa05d2ef12fd0f4b3dc050d00bf0979c8376c02e4175da752e4, n = 6) and 0.137069384 (tx 0xc0ee1491b52111ef859d8a4d860190b97e40559c37626f89a2ffb488d40ae6e5, n = 16), both rejected; both balances at block 26445549 are 0."
+  },
+  {
+   "address": "0xf5075ecad7bc7838d2f3007a43b3709e9d289a5d",
+   "tx": "0xb5f445bb48b2768f3eb74a9c2aff29a44296b0f15f61996dab6cd101db481068",
+   "to": "0x896f28cad92851ef45087e001f8f5cedd057a364",
+   "wgnk": "100.000000000",
+   "receiver": "holds",
+   "derivation": "0x896f28cad92851ef45087e001f8f5cedd057a364 (EOA) has no WGNK outflow in the window; balance at block 26445549: 47206.909529102 WGNK (it also bought 7,106.909529102 itself)."
+  },
+  {
+   "address": "0xf5075ecad7bc7838d2f3007a43b3709e9d289a5d",
+   "tx": "0x7fc9f88c7ac6cad331469215eb3a4f6b108604ff1afd744b55d00458011cf98c",
+   "to": "0x896f28cad92851ef45087e001f8f5cedd057a364",
+   "wgnk": "40000.000000000",
+   "receiver": "holds",
+   "derivation": "0x896f28cad92851ef45087e001f8f5cedd057a364 (EOA) has no WGNK outflow in the window; balance at block 26445549: 47206.909529102 WGNK (it also bought 7,106.909529102 itself)."
+  }
+ ],
+ "lp_deposits": [
+  {
+   "address": "0x17202376885264105471e8d443786bd6d49ec112",
+   "tx": "0xcd96dff102f274e4872e64e585f7f4b3307ef1034207d35bd1672b60aa14b7c2",
+   "wgnk": "1921.498746080",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e7a0, pool 0x687f4422, ticks -109903..-87789, with 31.998162 USDT; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0xcc2ba2b5e06f9d938546b8ceaf2c5f81be704907",
+   "tx": "0x357f3dc326238bcbfe4507ddbc66b9e7c8806fc29819d4cecf4c6d7a6407e23b",
+   "wgnk": "1367.431716578",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e7bc, pool 0x140f2fc1, ticks -102000..-88500, WGNK only; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0xa9dc7d2ea9387b9bdfc1852c298a6e35a61089af",
+   "tx": "0x8e104a2ba387fc86d8c120afd2e7f1b9e087c51ada1f92ffcda78085171dcd61",
+   "wgnk": "180.454932104",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e752, pool 0x32b1f209, full range, with 9.264634 USDT; fees collected later: 28.634105973 WGNK + 0.842501 USDT and 3.887163979 WGNK; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0xa9dc7d2ea9387b9bdfc1852c298a6e35a61089af",
+   "tx": "0x611be83f31f7bc10627d4c01ed5bf9a389aca357719ce81e88d3526495d4e7ca",
+   "wgnk": "329.700632657",
+   "derivation": "Uniswap V4 liquidity deposit: same position 0x7e752 increased, with 9.705573 USDT; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x4467aa359654154abfc0eb18e88672a1b0339d76",
+   "tx": "0xe4a287a80250f73a13552793561b46bf3ca29c2a5af9426a2e091ec280b7c11d",
+   "wgnk": "261.104287269",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e728, pool 0xe6d96e64, ticks -885000..885000, with 2.088742 USDC; fees collected later: 23.269968995 WGNK + 0.788912 USDC; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x4467aa359654154abfc0eb18e88672a1b0339d76",
+   "tx": "0x6628400b5105caa582bc58dac93d4ee2c8885eb732bcee80a3d1c21d993d5848",
+   "wgnk": "250.562705725",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e746, pool 0x1cca55a7, ticks -880000..880000, with 1.118491 USDC; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x4467aa359654154abfc0eb18e88672a1b0339d76",
+   "tx": "0x178704ec9d3546382e4ea567a0b00431748e2b5760fcfd6de293ca1bf99db31d",
+   "wgnk": "79.398184612",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e74e, pool 0x32b1f209, ticks -103465..-103459, with 3.534584 USDT; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x4467aa359654154abfc0eb18e88672a1b0339d76",
+   "tx": "0xac3ec88dc9fce2a64bece50d5755b48be29775821841a68fb543baf04e6b173e",
+   "wgnk": "57.785795203",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e755, pool 0x687f4422, full range, with 1.965258 USDT; fees collected later: 11.923571646 WGNK + 0.309325 USDT; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x53fe63dfe1be7f2ab83ba770e82429051d00215b",
+   "tx": "0xfc1cc912792a5496b09dece0f90529a71fdcd8d6cee694af0d203427f8387f14",
+   "wgnk": "183.667090610",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e744, pool 0x687f4422, full range, with 1.701381 USDT; fees collected later: 19.778916388 WGNK + 1.252739 USDT; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x53fe63dfe1be7f2ab83ba770e82429051d00215b",
+   "tx": "0x77ed3448fdb2eec7d445f71c1e52c22e78b81f31c29f4c33af7c4d305f480dc9",
+   "wgnk": "26.241775327",
+   "derivation": "Uniswap V4 liquidity deposit: same position 0x7e744 increased, with 0.932146 USDT; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x53fe63dfe1be7f2ab83ba770e82429051d00215b",
+   "tx": "0xa2ee7223d8080595fc24034c039c44a44c8051612b630258e2778a53ac2d59c7",
+   "wgnk": "13.120887664",
+   "derivation": "Uniswap V4 liquidity deposit: same position 0x7e744 increased, with 0.466073 USDT; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x33f0bbdb19d394c78f4eef0ae53e675159e0a6b8",
+   "tx": "0x70345caf0eb78a3e3dae558ff5f5654ef10b5241ded5e8f304aa34d60b7a8cfa",
+   "wgnk": "62.278230862",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e773, pool 0x1cca55a7, ticks -880000..880000, with 0.516163 USDC; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x7c949b887b95f8b8aec5ed3d7c10d84323149fc3",
+   "tx": "0x453a51796ccec42436520ff9ff3848fbfe03da2820798e47d1c1b74898f8b66e",
+   "wgnk": "68.311790235",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e80a, pool 0xf71cedfc, ticks -871200..871200, with 6.830502 USDC; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  },
+  {
+   "address": "0x5ec2ea4ecfa01e864c3c115c96613e93d99adaa7",
+   "tx": "0x5db83b5b5b79823c496562e79d24cf51445e409901e1a9f7c39172af43f34b74",
+   "wgnk": "4.480034534",
+   "derivation": "Uniswap V4 liquidity deposit: V4 PositionManager token 0x7e722, pool 0x1cca55a7, ticks -880000..-123200, with 400 USDC; position still open at block 26445549: its liquidity was never decreased in the window (the only later events on it are fee collections with liquidityDelta 0), so nothing was withdrawn before the cutoff"
+  }
+ ],
+ "relayer_sales": [
+  {
+   "address": "0x18f850be823cc2a465d5fd66d0760009c0624164",
+   "tx": "0x5ec18db40bbbd1cae46a189371f746d97c3712cf76a9415b684d9caae681f3df",
+   "usd": "56.489122",
+   "derivation": "sold 7738.392616265 WGNK through a relayer, proceeds paid out elsewhere; pool-side value: the WGNK pools took in 7738.392616265 WGNK and paid out 56.489122 USD (USDT 56.489122), share 1.000000000"
+  },
+  {
+   "address": "0x91f4ab42bfb9354a817e964a552d61252742ce6d",
+   "tx": "0xfb628c5e0529362c85ab3af9995be4bf93450a68f9f6e6c9ba1a2795cce6d8cb",
+   "usd": "51.641791",
+   "derivation": "sold 954.498471253 WGNK through a relayer, proceeds paid out elsewhere; pool-side value: the WGNK pools took in 954.498471253 WGNK and paid out 51.641791 USD (USDT 51.641791), share 1.000000000"
+  },
+  {
+   "address": "0x60820a01cf33c561fe7b64f161622d7664701987",
+   "tx": "0xe0634fb6f1c910a0ba7b134b9973f28dc9cec2039bb71cc18d1c6d2c30211320",
+   "usd": "305.837766",
+   "derivation": "sold 5324.909277618 WGNK through a relayer, proceeds paid out elsewhere; pool-side value: the WGNK pools took in 5324.909277618 WGNK and paid out 305.837766 USD (USDT 305.837766), share 1.000000000"
+  },
+  {
+   "address": "0xfc7122ae3107ce85f0f3f5ccde30c1ab3f9173b1",
+   "tx": "0xda1e70fe6520758c56c73cff92f08bf58eef7c75488f14bd7b87ddb6048cf7dc",
+   "usd": "738.859076",
+   "derivation": "sold 15445.761417 WGNK through a relayer, proceeds paid out elsewhere; pool-side value: the WGNK pools took in 15445.761417 WGNK and paid out 738.859076 USD (USDT 738.859076), share 1.000000000"
+  },
+  {
+   "address": "0x335e5611385607d411470246229c0b5767999915",
+   "tx": "0xbf0e5540eb48c650130d8684856c8f1d23bf494d2e120763b601e5e26d9dd66a",
+   "usd": "159.670362",
+   "derivation": "sold 4839.863559768 WGNK through a relayer, proceeds paid out elsewhere; pool-side value: the WGNK pools took in 4839.863559768 WGNK and paid out 159.670362 USD (USDT 159.670362), share 1.000000000"
+  },
+  {
+   "address": "0x13ab71027cd567fc49292e52296852c58237b9d7",
+   "tx": "0x1d5783f4ded1474bad2ee076f478a2d4ab77c104d50370f0bbbeae7a21c1c36e",
+   "usd": "9.769081",
+   "derivation": "sold 348.376011159 WGNK through a relayer, proceeds paid out elsewhere; pool-side value: the WGNK pools took in 348.376011159 WGNK and paid out 9.769081 USD (USDT 9.769081), share 1.000000000"
+  },
+  {
+   "address": "0xc459682438d9b926f0f0fadbd64c37b7134bee3a",
+   "tx": "0xc2c8b1ef855f4766320895b749cee0d1221949011492a9c434aafb08a9a5135d",
+   "usd": "4427.273189",
+   "derivation": "sold 143946.195393372 WGNK through a relayer, proceeds paid out elsewhere; pool-side value: the WGNK pools took in 143946.195393372 WGNK and paid out 4427.273189 USD (USDT 4345.067148; USDT 77.234321; USDT 4.971720), share 1.000000000"
+  },
+  {
+   "address": "0x4ea4d4a6790da838a501b458ed87afb6a50b97aa",
+   "tx": "0x2f38053e5f05b10fe4f29040c0392c8151b18335804bcf8eaf3567734d78735f",
+   "usd": "56.257818",
+   "derivation": "sold 1700.781242575 WGNK through a relayer, proceeds paid out elsewhere; pool-side value: the WGNK pools took in 1700.781242575 WGNK and paid out 56.257818 USD (USDT 56.257818), share 1.000000000"
+  }
+ ]
+}
